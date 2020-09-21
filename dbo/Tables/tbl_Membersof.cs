@@ -6,13 +6,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MMSdb.dbo.Tables
 {
-    [Table("tbl_Groups")]
-    public class tblGroups
+    [Table("tbl_Membersof")]
+    public class tbl_Membersof
     {
         [Key]
+        [Column(Order = 1)]
         public long grp_ID { get; set; }
-        public string grp_Name { get; set; }
-        public DateTime grp_Created { get; set; }
-        public DateTime grp_Modified { get; set; }
+        [Key]
+        [Column(Order = 2)]
+        public long usr_ID { get; set; }
     }
 }
