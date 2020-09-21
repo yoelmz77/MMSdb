@@ -38,10 +38,12 @@ namespace MMSdb.dbo
         public DbSet<tbl_GroupRights> GroupRightsTable { get; set; }
         public DbSet<tbl_HospitalInfo> HospitalInfoTable { get; set; }
         public DbSet<tbl_HouseHold> HouseHoldTable { get; set; }
+        public DbSet<tbl_Householdresidents> HouseholdresidentsTable { get; set; }
         public DbSet<tbl_Image> ImageTable { get; set; }
         public DbSet<tbl_Immigration> ImmigrationTable { get; set; }
         public DbSet<tbl_Insurance> InsuranceTable { get; set; }
         public DbSet<tbl_MaritalStatus> MaritalStatusTable { get; set; }
+        public DbSet<tbl_Medications> MedicationsTable { get; set; }
         public DbSet<tbl_Payments> PaymentsTable { get; set; }
         public DbSet<tbl_Physicians> PhysiciansTable { get; set; }
         public DbSet<tbl_Reports> ReportsTable { get; set; }

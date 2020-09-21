@@ -38,10 +38,12 @@ namespace MMSdb
                 db.GroupRightsTable.ToList();
                 db.HospitalInfoTable.ToList();
                 db.HouseHoldTable.ToList();
+                db.HouseholdresidentsTable.ToList();
                 db.ImageTable.ToList();
                 db.ImmigrationTable.ToList();
                 db.InsuranceTable.ToList();
                 db.MaritalStatusTable.ToList();
+                db.MedicationsTable.ToList();
                 db.PaymentsTable.ToList();
                 db.PhysiciansTable.ToList();
                 db.ReportsTable.ToList();

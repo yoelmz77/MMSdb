@@ -12,14 +12,14 @@ namespace MMSdb.dbo.Tables
         [Key]
         public long hosp_ID { get; set; }
         public long dmg_ID { get; set; }
-        public long? hosp_FacilityID { get; set; }
+        public long? fac_ID { get; set; }
         public int? hosp_StatusID { get; set; }
         public String? hosp_ChartNo { get; set; }
         public String? hosp_Admission { get; set; }
         public String? hosp_Discharge { get; set; }
         public String? hosp_Reason { get; set; }
         public String? hosp_Notes { get; set; }
-        public String? hosp_Recipients { get; set; }
+        public String? hosp_Recipient { get; set; }
         public Double? hosp_AnticipatedRecovery { get; set; }
         public String? hosp_Referred { get; set; }
         public Double? hosp_Balance { get; set; }
