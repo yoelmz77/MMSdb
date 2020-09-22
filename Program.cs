@@ -50,6 +50,7 @@ namespace MMSdb
                 db.SchoolInfoTable.ToList();
                 db.SocialSecurityTable.ToList();
                 db.WorkHistoryTable.ToList();
+                db.ReportRightsUsersTable.ToList();
             }
 
             Console.WriteLine("Press any key to exit...");

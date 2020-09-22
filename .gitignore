@@ -234,3 +234,13 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
+bin/Debug/netcoreapp3.1/MMSdb.dll
+.vs/MMSdb/v16/.suo
+.vs/MMSdb/v16/.suo
+*.dll
+*.pdb
+*.dll
+*.pdb
+*.cache
+obj/Debug/netcoreapp3.1/MMSdb.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp3.1/MMSdb.csproj.CoreCompileInputs.cache

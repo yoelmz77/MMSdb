@@ -50,6 +50,7 @@ namespace MMSdb.dbo
         public DbSet<tbl_SchoolInfo> SchoolInfoTable { get; set; }
         public DbSet<tbl_SocialSecurity> SocialSecurityTable { get; set; }
         public DbSet<tbl_WorkHistory> WorkHistoryTable { get; set; }
+        public DbSet<tbl_ReportRightsUsers> ReportRightsUsersTable { get; set; }
 
     }
 }
