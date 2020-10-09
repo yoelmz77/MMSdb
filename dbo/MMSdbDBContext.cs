@@ -9,7 +9,8 @@ namespace MMSdb.dbo
     {
         public MMSdbDBContext()
             //: base("name=mmsdbconnection")
-            : base("Data Source=.\\SQLEXPRESS;Initial Catalog=MMS;User ID=yoel;Password=Abc123..;")
+            //: base("Data Source=.\\SQLEXPRESS;Initial Catalog=MMS;User ID=yoel;Password=Abc123..;")
+            : base("Data Source=MMEDVMSERVER;Initial Catalog=MMS;User ID=sa;Password=44$58*2Z@;")
         
         {
         }
