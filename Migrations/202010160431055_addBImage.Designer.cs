@@ -7,13 +7,13 @@ namespace MMSdb.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class yoeltypy : IMigrationMetadata
+    public sealed partial class addBImage : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(yoeltypy));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(addBImage));
         
         string IMigrationMetadata.Id
         {
-            get { return "202009221249424_yoeltypy"; }
+            get { return "202010160431055_addBImage"; }
         }
         
         string IMigrationMetadata.Source

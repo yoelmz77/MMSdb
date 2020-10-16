@@ -13,6 +13,31 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Migrations\202010080414513_InitialCreate.cs" />
+    <Compile Include="Migrations\202010080414513_InitialCreate.Designer.cs" />
+    <Compile Include="Migrations\202010120627033_addtbl_Status.cs" />
+    <Compile Include="Migrations\202010120627033_addtbl_Status.Designer.cs" />
+    <Compile Include="Migrations\202010120630252_tweaks.cs" />
+    <Compile Include="Migrations\202010120630252_tweaks.Designer.cs" />
+    <Compile Include="Migrations\202010160431055_addBImage.cs" />
+    <Compile Include="Migrations\202010160431055_addBImage.Designer.cs" />
+    <Compile Include="Migrations\202010160441586_removeimgImage.cs" />
+    <Compile Include="Migrations\202010160441586_removeimgImage.Designer.cs" />
+    <Compile Include="Migrations\202010160443113_renameImage.cs" />
+    <Compile Include="Migrations\202010160443113_renameImage.Designer.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202010080414513_InitialCreate.resx" />
+    <EmbeddedResource Include="Migrations\202010120627033_addtbl_Status.resx" />
+    <EmbeddedResource Include="Migrations\202010120630252_tweaks.resx" />
+    <EmbeddedResource Include="Migrations\202010160431055_addBImage.resx" />
+    <EmbeddedResource Include="Migrations\202010160441586_removeimgImage.resx" />
+    <EmbeddedResource Include="Migrations\202010160443113_renameImage.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
   </ItemGroup>
 

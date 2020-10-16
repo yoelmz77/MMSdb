@@ -639,14 +639,14 @@
                     {
                         hosp_ID = c.Long(nullable: false, identity: true),
                         dmg_ID = c.Long(nullable: false),
-                        hosp_FacilityID = c.Long(),
+                        fac_ID = c.Long(),
                         hosp_StatusID = c.Int(),
                         hosp_ChartNo = c.String(),
                         hosp_Admission = c.String(),
                         hosp_Discharge = c.String(),
                         hosp_Reason = c.String(),
                         hosp_Notes = c.String(),
-                        hosp_Recipients = c.String(),
+                        hosp_Recipient = c.String(),
                         hosp_AnticipatedRecovery = c.Double(),
                         hosp_Referred = c.String(),
                         hosp_Balance = c.Double(),
@@ -888,6 +888,16 @@
                         deleted = c.Boolean(),
                     })
                 .PrimaryKey(t => t.phy_ID);
+            
+            CreateTable(
+                "dbo.tbl_ReportRightsUsers",
+                c => new
+                    {
+                        rpt_ID = c.Long(nullable: false),
+                        usr_ID = c.Long(nullable: false),
+                        rpt_CanAccess = c.Boolean(nullable: false),
+                    })
+                .PrimaryKey(t => new { t.rpt_ID, t.usr_ID });
             
             CreateTable(
                 "dbo.tbl_Reports",
@@ -1144,6 +1154,7 @@
             DropTable("dbo.tbl_SocialSecurity");
             DropTable("dbo.tbl_SchoolInfo");
             DropTable("dbo.tbl_Reports");
+            DropTable("dbo.tbl_ReportRightsUsers");
             DropTable("dbo.tbl_Physicians");
             DropTable("dbo.tbl_Payments");
             DropTable("dbo.tbl_Membersof");

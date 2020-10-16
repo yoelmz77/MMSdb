@@ -51,6 +51,7 @@ namespace MMSdb
                 db.SocialSecurityTable.ToList();
                 db.WorkHistoryTable.ToList();
                 db.ReportRightsUsersTable.ToList();
+                db.StatusTable.ToList();
             }
 
             Console.WriteLine("Press any key to exit...");

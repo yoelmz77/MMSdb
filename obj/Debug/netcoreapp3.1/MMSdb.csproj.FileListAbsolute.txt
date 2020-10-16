@@ -65,4 +65,11 @@ C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.dll
 C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.pdb
 C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.genruntimeconfig.cache
 C:\Users\yoelm\Documents\Work\MMSdb\bin\Debug\netcoreapp3.1\MMSdb.dll.config
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.InitialCreate.resources
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.csproj.GenerateResource.cache
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.addtbl_Status.resources
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.tweaks.resources
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.addBImage.resources
 C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.csprojAssemblyReference.cache
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.removeimgImage.resources
+C:\Users\yoelm\Documents\Work\MMSdb\obj\Debug\netcoreapp3.1\MMSdb.Migrations.renameImage.resources

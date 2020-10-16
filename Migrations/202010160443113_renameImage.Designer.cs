@@ -7,13 +7,13 @@ namespace MMSdb.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class hosp_Recipient : IMigrationMetadata
+    public sealed partial class renameImage : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(hosp_Recipient));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(renameImage));
         
         string IMigrationMetadata.Id
         {
-            get { return "202009210517063_hosp_Recipient"; }
+            get { return "202010160443113_renameImage"; }
         }
         
         string IMigrationMetadata.Source

@@ -13,7 +13,7 @@ namespace MMSdb.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "202009210510161_InitialCreate"; }
+            get { return "202010080414513_InitialCreate"; }
         }
         
         string IMigrationMetadata.Source

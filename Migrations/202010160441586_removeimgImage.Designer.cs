@@ -7,13 +7,13 @@ namespace MMSdb.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class addingtbl_ReportRightsUsers : IMigrationMetadata
+    public sealed partial class removeimgImage : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(addingtbl_ReportRightsUsers));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(removeimgImage));
         
         string IMigrationMetadata.Id
         {
-            get { return "202009221239313_addingtbl_ReportRightsUsers"; }
+            get { return "202010160441586_removeimgImage"; }
         }
         
         string IMigrationMetadata.Source

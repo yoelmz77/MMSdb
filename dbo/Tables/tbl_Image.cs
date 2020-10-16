@@ -12,7 +12,7 @@ namespace MMSdb.dbo.Tables
         [Key]
         public long img_ID { get; set; }
         public long dmg_ID { get; set; }
-        public String? img_Image { get; set; }
+        public Byte[]? img_Image { get; set; }
         public Boolean? deleted { get; set; }
     }
 }
